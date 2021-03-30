@@ -1,0 +1,8 @@
+.Posts {
+    display: flex;
+    flex-grow: row wrap;
+}
+.Posts article {
+    flex: 1 1 50%;
+    padding: 2rem;
+}

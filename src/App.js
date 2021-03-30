@@ -1,23 +1,20 @@
-import { useState } from 'react';
-import './App.css';
+import './App.css';;
+import Posts from './components/Posts/Posts'
+
 
 function App() {
-
-  const [posts, setPosts] = useState([
-    { id: 1, title: "Example posts", body: "lorem ipsun bla bla bla."},
-    { id: 2, title: "Another posts", body: "lorem ipsun bla bla bla."},
-    { id: 3, title: "Third posts", body: "lorem ipsun bla bla bla."}
-  ])
-  return (
+  return(
     <div className="App">
-      <article>
-        <h2>Example posts</h2>
-        <p>lorem ipsun bla bla bla.</p>
-      </article>
-
-   
+      <Posts />
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
