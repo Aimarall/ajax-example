@@ -6,7 +6,7 @@ import classes from "./Example2.module.css";
 const Example2 = () => {
     const [title, setTitle] = useState("Loading...");
     useEffect(() => {
-        axios.get('https://jsonplaceholder.typicode.com/todos/2')
+        axios.get('https://jsonplaceholder.typicode.com/photos/1')
             .then(response => {
                 setTitle(response.data.title);
             });
